@@ -4,12 +4,13 @@
         this.n2 =n2;
     }
 
-    add = ()=>{
-        return n1+n2;
+    add(){
+        return this.n1+this.n2;
     } 
 
-    product = ()=>{
-        return n1*n2
+    product(){
+        return this.n1*this.n2
     }
 }
+
 module.exports = Calculator;

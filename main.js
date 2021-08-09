@@ -1,7 +1,5 @@
-const {add} = require("./calculator")
+const Calculator = require('./calculator');
 
-add(9,6);
-
-const simpleCalculator = new Calculator(7,8);
+const simpleCalculator = new Calculator(4,3);
 
 console.log(simpleCalculator.add());
